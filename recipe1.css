@@ -1,0 +1,128 @@
+/* styles.css */
+
+/* Reset some default styles for consistency */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.recipe-details {
+  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.recipe-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.recipe-meta{
+  width: 100%;
+}
+.recipe-meta p {
+  margin: 5px 0;
+}
+
+.recipe-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+.ingredients-list,
+.instructions-list {
+  margin: 10px 0;
+}
+
+.ingredients-list li,
+.instructions-list li {
+  margin: 5px 0;
+  list-style: decimal;
+}
+
+.rating {
+  font-size: 24px;
+  margin-bottom: 15px;
+  border-top: 1px solid #ddd;
+}
+
+.rating .star {
+  cursor: pointer;
+}
+
+.user-reviews {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+.user-reviews h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.reviews-list {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.reviews-list li {
+  margin-bottom: 5px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form textarea {
+  width: 100%;
+  resize: vertical;
+  padding: 5px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
